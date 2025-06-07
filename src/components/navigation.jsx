@@ -216,7 +216,7 @@ export const Navigation = (props) => {
         }}>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
             <a
-              href="#header"
+              href="#home"
               onClick={() => setIsMobileMenuOpen(false)}
               style={{
                 color: '#d1d5db',
@@ -233,7 +233,7 @@ export const Navigation = (props) => {
               Home
             </a>
             <a
-              href="#about"
+              href="#about-us"
               onClick={() => setIsMobileMenuOpen(false)}
               style={{
                 color: '#d1d5db',
@@ -250,7 +250,7 @@ export const Navigation = (props) => {
               About Us
             </a>
             <a
-              href="#services"
+              href="#our-services"
               onClick={() => setIsMobileMenuOpen(false)}
               style={{
                 color: '#d1d5db',
@@ -267,7 +267,7 @@ export const Navigation = (props) => {
               Services
             </a>
             <a
-              href="#contact"
+              href="#contact-us"
               onClick={() => setIsMobileMenuOpen(false)}
               style={{
                 color: '#d1d5db',

@@ -36,7 +36,14 @@ export const About = ({ data }) => {
             </ul>
           </div>
 
-          <button className="about-btn">Get In Touch</button>
+          <button 
+  className="about-btn"
+  onClick={() => {
+    document.getElementById('contact-us')?.scrollIntoView({ behavior: 'smooth' });
+  }}
+>
+  Get In Touch
+</button>
         </div>
       </div>
     </div>
