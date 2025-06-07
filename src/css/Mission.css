@@ -1,0 +1,71 @@
+.mission-section {
+  padding: 60px 20px;
+  /* background: linear-gradient(to right, #c1d7d3, #a2c9c0); */
+  /* font-family: "Segoe UI", sans-serif; */
+  text-align: center;
+  color: #fff;
+}
+
+.mission-title {
+  font-size: 36px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.mission-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.mission-card {
+  background-color: #fefefe;
+  color: #3E4A56;
+  padding: 30px;
+  border-radius: 16px;
+  width: 280px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.mission-card:hover {
+  transform: translateY(-5px);
+}
+
+.mission-icon {
+  font-size: 40px;
+  color: #ebcb54;
+  margin-bottom: 15px;
+}
+
+.mission-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.mission-card p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.mission-card ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.mission-card ul li {
+  margin: 6px 0;
+  font-size: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .mission-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
