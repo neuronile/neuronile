@@ -118,7 +118,7 @@ body {
 .slider-track {
   display: flex;
   width: calc(250px * 10); /* Adjust based on number of logos */
-  animation: scroll 20s linear infinite;
+  animation: scroll 10s linear infinite;
 }
 
 .slide {
@@ -284,7 +284,7 @@ body {
 .slider-track {
   display: flex;
   width: calc(200%); /* doubles the logos for continuous scroll */
-  animation: scroll 20s linear infinite;
+  animation: scroll 7s linear infinite;
 }
 
 .slide {
