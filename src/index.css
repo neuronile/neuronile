@@ -286,7 +286,11 @@ body {
   width: calc(200%); /* doubles the logos for continuous scroll */
   animation: scroll 7s linear infinite;
 }
-
+@media (max-width: 768px) {
+  .slider-track {
+    animation: scroll 2s linear infinite; /* Faster scroll on mobile */
+  }
+}
 .slide {
   flex: 0 0 auto;
   width: 150px;
